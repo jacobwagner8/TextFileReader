@@ -8,16 +8,8 @@
 #include "simpio.h"
 using namespace std;
 
-//Testing out Jake's branch
-
-//"Hello this is for practice"
-
-//Changing something
-
-//void initializeMap(HashMap<int, Vector<string>> &data);
-//void printOptions();
-
-
+void initializeMap(HashMap<int, Vector<string>> &data);
+void printOptions();
 double findAverage(int column, HashMap<int, Vector<string>> &data);
 void printAllAverages(HashMap<int, Vector<string>> &data);
 void printVector(Vector<string> curr);
